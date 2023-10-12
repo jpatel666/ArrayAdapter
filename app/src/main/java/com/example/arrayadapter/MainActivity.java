@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Adapter:-Two types of adapter [1].Array Adapter [2].CustomArray Adapter
+        // Adapter:-Two types of adapter [1].Array Adapter [2].Custom Array Adapter
 
         // [1].Array Adapter:- Only 1 and only string
 
