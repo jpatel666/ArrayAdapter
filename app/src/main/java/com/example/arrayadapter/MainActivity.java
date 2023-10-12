@@ -20,16 +20,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Adapter:-Two types of adapter [1].Array Adapter [2].Custom Array Adapter
+       /*
+       Adapter:-Two Types Of Adapter.
+       [1].Array Adapter [2].Custom Array Adapter
 
-        // [1].Array Adapter:- Only 1 and only string
+       [1].Array Adapter:-Only One & Only String Values.
 
-        // [2].CustomArray Adapter:-Multiple
+       [2].Custom Array Adapter:-Multiple Values.
 
-        // 1.ListView:-Whatsapp
-        // 2.GridView:-Gallery
-        // 3.RecyclerView:-Instagram story and post
-        // 4.ViewPager:-Photo Swipe
+       [1].Array Adapter & [2].Custom Array Adapter
+        1.ListView:-Whatsapp
+        2.GridView:-Gallery
+        3.RecyclerView:-Instagram Story & Post
+        4.ViewPager:-Photo Swipe
+        */
+
 
         listView = findViewById(R.id.listView);
 
