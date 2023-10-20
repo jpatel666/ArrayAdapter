@@ -38,9 +38,6 @@ public class MainActivity extends AppCompatActivity {
 
         listView = findViewById(R.id.listView);
 
-        //By default in available in android
-        //ArrayAdapter arrayAdapter = new ArrayAdapter(MainActivity.this, android.R.layout.simple_list_item_1,frdlist);
-
         ArrayAdapter arrayAdapter = new ArrayAdapter(MainActivity.this,R.layout.frd_list_layout,R.id.textView,frdlist);
         listView.setAdapter(arrayAdapter);
 
